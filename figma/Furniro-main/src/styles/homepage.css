@@ -1,0 +1,97 @@
+.banner_img{
+    background-image: url("../images/Hero_banner.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero_box{
+    align-items: center;
+    background-color: #FFF3E3;
+    margin-right: 6rem;
+    border-radius: 10px;
+}
+
+.sub_hero_box{
+    margin: 2rem;
+    width: 500px;
+}
+
+.sub_hero_box_main_text{
+    display: block;
+    color: #B88E2F;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    margin: .25rem 0;
+}
+
+.sub_hero_box_button{
+    display: block;
+    margin: 1.5rem 0;
+    width: fit-content;
+    padding: 1rem 3rem;
+    background-color: #B88E2F;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.sub_hero_box_button:hover{
+    background-color: #fdb100;
+}
+
+.sub_hero_box_button a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*browse range div*/
+
+.browse_range_div{
+    margin: 2.5rem auto;
+}
+
+.browse_range_div_name{
+    text-align: center;
+    display: block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.browse_range_div_sentence{
+    text-align: center;
+    display: block;
+}
+
+.browse_range_div_main_card{
+    margin: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.browse_range_div_card{
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.browse_range_div_card{
+    width: 50vh;
+}
+
+.browse_range_div_card_name{
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: large;
+}
